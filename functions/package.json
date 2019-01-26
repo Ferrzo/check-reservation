@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ferrzo/reservation-guard.git"
+    "url": "git+https://github.com/Ferrzo/check-reservation.git"
   },
   "author": "@Ferrzo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ferrzo/reservation-guard/issues"
+    "url": "https://github.com/Ferrzo/check-reservation/issues"
   },
-  "homepage": "https://github.com/Ferrzo/reservation-guard#readme",
+  "homepage": "https://github.com/Ferrzo/check-reservation#readme",
   "engines": {
     "node": "8"
   },
