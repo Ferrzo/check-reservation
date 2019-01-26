@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+script:
+  - cd functions && npm install && cd ..
+deploy:
+  provider: firebase
+  token:
+    secure: "PhmoSid+eUvqmP4HrXN2hmrP6wsYynfXdCYvgoXlJoozKGj8hdVqQTQ/wnyM5Q7AEr1fKqIEtUMoRaVjbaVOd+QM5bV3YofgAVAiWKi6b1z1xEC/ucOFPfBewOitgkfHW+Q+q7qltRP+kMC4811DL061HJwHs4h3WUPANR4TWHNta3jt+PaxZo6aQpJD0I8CsNuf/O4sIUeym6EM0pja6BRV0vzBP9Eq/TSvrxCVfPszC+mfD8pEqoq6ss0/Pt+DK1bKHBAhq8Pd8DDBzGz2fjw9br1KkY10zuSsVka7Scv4BRA46Jt00yDQkT8ad9QyWojehznws5ghyrKLT/1SLN7XYJgzbT7xGrt9N4kxu02RuH5xYObSD6SveV0cGob7uvguQxwNu4h9UiFp5daBkcFWw5wFeG3I2I3XufvxvI6XmzMjIC8Rg3c0IrrwyAXp9o4+7OrGU57TSmxNUqlkD3nUN2TJXoEnQbMmmJ32kd7cJZToRMwCas8tEkj6kRgQ/Fm3dzsTukRFySmG7XMwOED4ZykOacLiiZBEM6+b8uwpAeiEiP45Jb4lgXgk4OhM0WlEmVAqT0j+Ns3RcUy4eDZBsPCAmB/stSKzmr/gU0pBQh/UcCi77M7JeIFpht8021eyPyVI6QpM3okTTD4iTfYdV4kXO0sdnnsWNDaZL5U="
